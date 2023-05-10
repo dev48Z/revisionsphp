@@ -65,8 +65,6 @@ switch($age){
     case 20:
         echo "$age est plus grand que 18";
         break;
-    case -1:
-        echo"$age y a un probleme";
-        break;
+    
 }
 ?>
