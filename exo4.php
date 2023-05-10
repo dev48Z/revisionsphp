@@ -4,10 +4,14 @@ $age = 20;
 
     if($age >=18){
     echo "je suis majeur";
-}elseif($age < 18){
+    return;
+}elseif( $age >= 0 & $age <= 17){
     echo "je suis mineur";
-} else{
+    
+}elseif($age < 0){
     echo "Y a un probleme";
-}
+    }
+
+
 
 ?>
